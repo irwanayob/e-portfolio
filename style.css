@@ -1,0 +1,123 @@
+body, html {
+  height: 100%;
+ 
+ }
+ 
+ .navbar-fixed-top {
+ position: fixed;
+ right: 10;
+ left: 10;
+ z-index: 999;
+ background: #242425;
+ top: 10;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-left: 20px;
+   padding-right: 20px;
+ }
+ .alignleft {
+   float: left;
+   color: white;
+   font-size: 25px;
+   padding-bottom: 0px;
+ }
+ .alignright {
+   float: right;
+   padding-top: 25px;
+ }
+ .element {
+     position: relative;
+ }
+ 
+ /*replace the content value with the
+ corresponding value from the list below*/
+ .pin{
+   padding-top: 10px;
+ }
+ .element:before {
+     content: "\f113";
+     font-family: FontAwesome;
+     font-style: normal;
+     font-weight: normal;
+     text-decoration: inherit;
+ /*--adjust as necessary--*/
+     color: white;
+     font-size: 18px;
+     padding-right: 0.5em;
+     position: absolute;
+     top: 10px;
+     left: 0;
+ }
+ .bgImg{
+   background:url(https://images.unsplash.com/photo-1526920929362-5b26677c148c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1355&q=80);
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+ }
+ .bgImg2{
+   background:url(https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1298&q=80);
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    font-size: 50px;
+   color: #000000;
+   
+ }
+ 
+ .text-3{
+   font-family: 'Roboto', sans-serif;
+   font-size: 20px;
+   color: white;
+   text-align: left;
+   line-height: 100%;
+   padding-top: 80px;
+   padding-left: 30px;
+  position: center;
+  text-decoration: none; 
+ }
+ .text-4{
+   font-family: 'Roboto', sans-serif;
+   font-size: 50px;
+   color: black;
+   text-align: right;
+   line-height: 100%;
+   padding-top: 70px;
+   padding-right: 25px;
+  position: center;
+   
+ }
+ 
+ .title-1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  color: white;
+   padding-left: 30px;
+   padding-top: 80px;
+   line-height: 95%;
+   
+ }
+ .title-5{
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  color: white;
+   padding-right: 30px;
+   padding-lrft: 30px;
+ padding-top: 5px;
+   text-align: right;
+ 
+ 
+ }
+ .title-2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  color: white;
+   padding-left: 30px;
+   padding-top: 80px;
+   line-height: 95%;
+ }
+ a {
+   text-decoration: none;
+ }

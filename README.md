@@ -1,3 +1,4 @@
 # e-portfolio
-My Online Port folio
+Resources to my online portfolio.
 http://irwn.epizy.com
+https://irwan.gq
